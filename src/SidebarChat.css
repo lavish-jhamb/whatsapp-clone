@@ -1,0 +1,32 @@
+.sidebar_chat {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: solid 1px #f6f6f6;
+}
+
+.sidebar_chat:hover,
+.createNewChat:hover {
+  background-color: #ebebeb;
+}
+
+.sidebar_chatInfo {
+  margin-left: 12px;
+}
+.sidebar_chatInfo > h3 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+  outline: none;
+}
+
+.createNewChat {
+  cursor: pointer;
+  padding: 1em 0;
+}
+.createNewChat > h2 {
+  margin-left: 15px;
+}
